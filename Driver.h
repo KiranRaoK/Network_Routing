@@ -4,9 +4,10 @@
 #include "Output.h"
 using namespace std;
 class Driver{
-public:
+private:
 vector<pair<pair<string,string>,int>> input;
 vector<Edge> Network;
 set<string> S;
+public:
 void StartDriver();
 };
